@@ -1,4 +1,4 @@
-function [y] = convolution(x,h)
+function [y] = Convolution(x,h)
   n1=length(x); 
   n2=length(h); 
   x=[x,zeros(1,n2)];
